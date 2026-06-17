@@ -1,0 +1,1449 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net10.0",
+    "targetDisplayName": ".NETCoreApp,Version=v10.0"
+  },
+  "analysisStartTime": "2026-06-17T10:47:04.2885495Z",
+  "analysisEndTime": "2026-06-17T10:47:06.3015908Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 3,
+      "issues": 14,
+      "incidents": 52,
+      "effort": 52
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 39,
+        "Optional": 5,
+        "Potential": 8,
+        "Information": 0
+      },
+      "category": {
+        "NuGet": 29,
+        "Project": 6,
+        "Binding": 2,
+        "Feature": 3,
+        "Api": 12
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "EStore.Domain\\EStore.Domain.csproj",
+      "startingProject": true,
+      "issues": 6,
+      "storyPoints": 9,
+      "properties": {
+        "appName": "EStore.Domain",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net451"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 9,
+        "numberOfCodeFiles": 9,
+        "linesTotal": 373,
+        "linesOfCode": 373,
+        "totalApiScanned": 258,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "1da1eab3-ce71-4001-96e9-db4f457bc0f7",
+          "ruleId": "NuGet.0002",
+          "projectPath": "EStore.Domain\\EStore.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.1.2\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+              "protected": "EntityFramework, 6.1.2\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2"
+            },
+            "kind": "File",
+            "path": "EStore.Domain\\EStore.Domain.csproj",
+            "snippet": "EntityFramework, 6.1.2\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.1.2\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "label": "EntityFramework 6.1.2",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.1.2",
+              "PackageNewVersion": "6.5.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "9affd6c1-2b93-4782-a00a-2711d6e6f2f4",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.Domain\\EStore.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "EStore.Domain\\EStore.Domain.csproj",
+            "snippet": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Mvc 5.2.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Mvc",
+              "PackageVersion": "5.2.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "45a0b3d2-9eb4-4ecd-8703-c17d4c32fbc4",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.Domain\\EStore.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "EStore.Domain\\EStore.Domain.csproj",
+            "snippet": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.Razor 3.2.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Razor",
+              "PackageVersion": "3.2.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "172b95a5-7265-4379-aea3-c7a6964706a5",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.Domain\\EStore.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "EStore.Domain\\EStore.Domain.csproj",
+            "snippet": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.AspNet.WebPages 3.2.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebPages",
+              "PackageVersion": "3.2.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "9671b652-3d80-4b3e-a011-a374a655b1ad",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.Domain\\EStore.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "EStore.Domain\\EStore.Domain.csproj",
+            "snippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Microsoft.Web.Infrastructure 1.0.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Web.Infrastructure",
+              "PackageVersion": "1.0.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "9c4faeb2-e972-412d-9e76-493e12f801c9",
+          "ruleId": "NuGet.0005",
+          "projectPath": "EStore.Domain\\EStore.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.1.2\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+              "protected": "EntityFramework, 6.1.2\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2"
+            },
+            "kind": "File",
+            "path": "EStore.Domain\\EStore.Domain.csproj",
+            "snippet": "EntityFramework, 6.1.2\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.1.2\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "label": "EntityFramework 6.1.2",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.1.2",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d6d19f87-d2ef-4ea9-813f-98d42c44c099",
+          "ruleId": "Project.0001",
+          "projectPath": "EStore.Domain\\EStore.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "EStore.Domain\\EStore.Domain.csproj"
+          }
+        },
+        {
+          "incidentId": "0b1f7d1d-a169-4d22-bc18-61f29eb834db",
+          "ruleId": "Project.0002",
+          "projectPath": "EStore.Domain\\EStore.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "EStore.Domain\\EStore.Domain.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5.1",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "7e19bd5d-0e3d-4733-b47f-b999d796dd3f",
+          "ruleId": "Binding.0004",
+          "projectPath": "EStore.Domain\\EStore.Domain.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in EStore.Domain.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in EStore.Domain.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "EStore.Domain\\EStore.Domain.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in EStore.Domain.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in EStore.Domain.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+      "startingProject": true,
+      "issues": 5,
+      "storyPoints": 12,
+      "properties": {
+        "appName": "EStore.UnitTests",
+        "projectKind": "ClassicClassLibrary",
+        "frameworks": [
+          "net451"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 6,
+        "numberOfCodeFiles": 6,
+        "linesTotal": 808,
+        "linesOfCode": 808,
+        "totalApiScanned": 462,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "f2e393d7-d9d0-43e3-b4e2-858ffa44bd0a",
+          "ruleId": "NuGet.0003",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.Mvc 5.2.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Mvc",
+              "PackageVersion": "5.2.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c444014e-74f5-48b8-80ee-0e8f59527c3c",
+          "ruleId": "NuGet.0003",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.Razor 3.2.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Razor",
+              "PackageVersion": "3.2.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "4aa3daa6-ad77-47f4-a086-5c173b74672a",
+          "ruleId": "NuGet.0003",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.WebPages 3.2.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebPages",
+              "PackageVersion": "3.2.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "7b126d16-4956-4b73-9421-2d90467a0129",
+          "ruleId": "NuGet.0003",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.Web.Infrastructure 1.0.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Web.Infrastructure",
+              "PackageVersion": "1.0.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "35c807c9-32d8-46a2-8c69-db32de582b4a",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Moq, 4.2.1502.0911\n\nRecommendation:\n\nMoq, 4.20.72",
+              "protected": "Moq, 4.2.1502.0911\n\nRecommendation:\n\nMoq, 4.20.72"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "Moq, 4.2.1502.0911\n\nRecommendation:\n\nMoq, 4.20.72",
+            "protectedSnippet": "Moq, 4.2.1502.0911\n\nRecommendation:\n\nMoq, 4.20.72",
+            "label": "Moq 4.2.1502.0911",
+            "properties": {
+              "PackageId": "Moq",
+              "PackageVersion": "4.2.1502.0911",
+              "PackageNewVersion": "4.20.72",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c737bc7d-f4b9-4998-ac13-56c899326ca8",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Ninject, 3.2.2.0\n\nRecommendation:\n\nNinject, 3.3.6",
+              "protected": "Ninject, 3.2.2.0\n\nRecommendation:\n\nNinject, 3.3.6"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "Ninject, 3.2.2.0\n\nRecommendation:\n\nNinject, 3.3.6",
+            "protectedSnippet": "Ninject, 3.2.2.0\n\nRecommendation:\n\nNinject, 3.3.6",
+            "label": "Ninject 3.2.2.0",
+            "properties": {
+              "PackageId": "Ninject",
+              "PackageVersion": "3.2.2.0",
+              "PackageNewVersion": "3.3.6",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "93ce2a67-9ea3-42de-9e18-ea4e98e1943b",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Ninject.MVC3, 3.2.1.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Ninject.MVC3, 3.2.1.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "Ninject.MVC3, 3.2.1.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Ninject.MVC3, 3.2.1.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Ninject.MVC3 3.2.1.0",
+            "properties": {
+              "PackageId": "Ninject.MVC3",
+              "PackageVersion": "3.2.1.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "33fee8a2-4ca1-4620-8bb4-d3831d1fbfe6",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Ninject.Web.Common, 3.2.3.0\n\nRecommendation:\n\nNinject.Web.Common, 3.3.2",
+              "protected": "Ninject.Web.Common, 3.2.3.0\n\nRecommendation:\n\nNinject.Web.Common, 3.3.2"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "Ninject.Web.Common, 3.2.3.0\n\nRecommendation:\n\nNinject.Web.Common, 3.3.2",
+            "protectedSnippet": "Ninject.Web.Common, 3.2.3.0\n\nRecommendation:\n\nNinject.Web.Common, 3.3.2",
+            "label": "Ninject.Web.Common 3.2.3.0",
+            "properties": {
+              "PackageId": "Ninject.Web.Common",
+              "PackageVersion": "3.2.3.0",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "9a262225-ec6b-4ecf-86e9-5dd7b008645f",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "WebActivatorEx, 2.0.6\n\nRecommendation:\n\nNo supported version found",
+              "protected": "WebActivatorEx, 2.0.6\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "WebActivatorEx, 2.0.6\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "WebActivatorEx, 2.0.6\n\nRecommendation:\n\nNo supported version found",
+            "label": "WebActivatorEx 2.0.6",
+            "properties": {
+              "PackageId": "WebActivatorEx",
+              "PackageVersion": "2.0.6",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "b57de5bb-7b43-4876-99d4-3983f91b02a6",
+          "ruleId": "Project.0001",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+          }
+        },
+        {
+          "incidentId": "008df58a-3997-4fea-9fcc-efa61a244009",
+          "ruleId": "Project.0002",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5.1",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "827feb3e-6230-4605-a3eb-afe13083920b",
+          "ruleId": "Binding.0004",
+          "projectPath": "EStore.UnitTests\\EStore.UnitTests.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "AutoGenerateBindingRedirects is not set in EStore.UnitTests.csproj, no manual redirects found",
+              "protected": "AutoGenerateBindingRedirects is not set in EStore.UnitTests.csproj, no manual redirects found"
+            },
+            "kind": "File",
+            "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+            "snippet": "AutoGenerateBindingRedirects is not set in EStore.UnitTests.csproj, no manual redirects found",
+            "protectedSnippet": "AutoGenerateBindingRedirects is not set in EStore.UnitTests.csproj, no manual redirects found"
+          }
+        }
+      ],
+      "features": []
+    },
+    {
+      "path": "EStore.WebUI\\EStore.WebUI.csproj",
+      "startingProject": true,
+      "issues": 11,
+      "storyPoints": 31,
+      "properties": {
+        "appName": "EStore.WebUI",
+        "projectKind": "Wap",
+        "frameworks": [
+          "net451"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 59,
+        "numberOfCodeFiles": 31,
+        "linesTotal": 23899,
+        "linesOfCode": 1139,
+        "totalApiScanned": 225,
+        "minLinesOfCodeToChange": 12,
+        "maxLinesOfCodeToChange": 12
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "05a533da-70b6-485a-ac88-0f138b70bf82",
+          "ruleId": "NuGet.0002",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.1.2\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+              "protected": "EntityFramework, 6.1.2\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "EntityFramework, 6.1.2\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.1.2\n\nRecommendation:\n\nRemove EntityFramework, and replace with new package EntityFramework 6.5.2",
+            "label": "EntityFramework 6.1.2",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.1.2",
+              "PackageNewVersion": "6.5.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "71ef250f-e342-4bda-a872-0417c470a5ad",
+          "ruleId": "NuGet.0003",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.Mvc, 5.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.Mvc 5.2.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Mvc",
+              "PackageVersion": "5.2.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "e78c8554-c5f1-4eda-ada6-1014bdb106dc",
+          "ruleId": "NuGet.0003",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.Razor, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.Razor 3.2.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.Razor",
+              "PackageVersion": "3.2.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "447f9684-cf77-43f7-b250-49a75b33fcbd",
+          "ruleId": "NuGet.0003",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.AspNet.WebPages, 3.2.3\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.AspNet.WebPages 3.2.3",
+            "properties": {
+              "PackageId": "Microsoft.AspNet.WebPages",
+              "PackageVersion": "3.2.3",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "a3789d21-f928-45fb-9af3-215373c85427",
+          "ruleId": "NuGet.0003",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+              "protected": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "protectedSnippet": "Microsoft.Web.Infrastructure, 1.0.0.0\n\nRecommendation:\n\nPackage functionality included with new framework reference",
+            "label": "Microsoft.Web.Infrastructure 1.0.0.0",
+            "properties": {
+              "PackageId": "Microsoft.Web.Infrastructure",
+              "PackageVersion": "1.0.0.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c49f5bf1-57e9-470c-b197-535f76c6a6d3",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Moq, 4.2.1502.0911\n\nRecommendation:\n\nMoq, 4.20.72",
+              "protected": "Moq, 4.2.1502.0911\n\nRecommendation:\n\nMoq, 4.20.72"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "Moq, 4.2.1502.0911\n\nRecommendation:\n\nMoq, 4.20.72",
+            "protectedSnippet": "Moq, 4.2.1502.0911\n\nRecommendation:\n\nMoq, 4.20.72",
+            "label": "Moq 4.2.1502.0911",
+            "properties": {
+              "PackageId": "Moq",
+              "PackageVersion": "4.2.1502.0911",
+              "PackageNewVersion": "4.20.72",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "8cef76c7-69c7-49f6-b7d6-3d7f02cd6d22",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Ninject, 3.2.2.0\n\nRecommendation:\n\nNinject, 3.3.6",
+              "protected": "Ninject, 3.2.2.0\n\nRecommendation:\n\nNinject, 3.3.6"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "Ninject, 3.2.2.0\n\nRecommendation:\n\nNinject, 3.3.6",
+            "protectedSnippet": "Ninject, 3.2.2.0\n\nRecommendation:\n\nNinject, 3.3.6",
+            "label": "Ninject 3.2.2.0",
+            "properties": {
+              "PackageId": "Ninject",
+              "PackageVersion": "3.2.2.0",
+              "PackageNewVersion": "3.3.6",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "49cd9412-395c-4ae8-9b6f-33a4adde6efe",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Ninject.MVC3, 3.2.1.0\n\nRecommendation:\n\nNo supported version found",
+              "protected": "Ninject.MVC3, 3.2.1.0\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "Ninject.MVC3, 3.2.1.0\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "Ninject.MVC3, 3.2.1.0\n\nRecommendation:\n\nNo supported version found",
+            "label": "Ninject.MVC3 3.2.1.0",
+            "properties": {
+              "PackageId": "Ninject.MVC3",
+              "PackageVersion": "3.2.1.0",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "052d0bba-587b-471a-8a8f-bd320d044445",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Ninject.Web.Common, 3.2.3.0\n\nRecommendation:\n\nNinject.Web.Common, 3.3.2",
+              "protected": "Ninject.Web.Common, 3.2.3.0\n\nRecommendation:\n\nNinject.Web.Common, 3.3.2"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "Ninject.Web.Common, 3.2.3.0\n\nRecommendation:\n\nNinject.Web.Common, 3.3.2",
+            "protectedSnippet": "Ninject.Web.Common, 3.2.3.0\n\nRecommendation:\n\nNinject.Web.Common, 3.3.2",
+            "label": "Ninject.Web.Common 3.2.3.0",
+            "properties": {
+              "PackageId": "Ninject.Web.Common",
+              "PackageVersion": "3.2.3.0",
+              "PackageNewVersion": "3.3.2",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "d1070931-8122-4a21-a57a-1f310bfe49ce",
+          "ruleId": "NuGet.0001",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "WebActivatorEx, 2.0.6\n\nRecommendation:\n\nNo supported version found",
+              "protected": "WebActivatorEx, 2.0.6\n\nRecommendation:\n\nNo supported version found"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "WebActivatorEx, 2.0.6\n\nRecommendation:\n\nNo supported version found",
+            "protectedSnippet": "WebActivatorEx, 2.0.6\n\nRecommendation:\n\nNo supported version found",
+            "label": "WebActivatorEx 2.0.6",
+            "properties": {
+              "PackageId": "WebActivatorEx",
+              "PackageVersion": "2.0.6",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "1219a668-897e-418a-be1a-6414b0387b33",
+          "ruleId": "NuGet.0004",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bootstrap, 3.3.2\n\nRecommendation:\n\nbootstrap, 5.3.8",
+              "protected": "bootstrap, 3.3.2\n\nRecommendation:\n\nbootstrap, 5.3.8"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "bootstrap, 3.3.2\n\nRecommendation:\n\nbootstrap, 5.3.8",
+            "protectedSnippet": "bootstrap, 3.3.2\n\nRecommendation:\n\nbootstrap, 5.3.8",
+            "label": "bootstrap 3.3.2",
+            "properties": {
+              "PackageId": "bootstrap",
+              "PackageVersion": "3.3.2",
+              "PackageNewVersion": "5.3.8",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "bc12cca8-9104-4f03-a135-39ec23a272dc",
+          "ruleId": "NuGet.0005",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EntityFramework, 6.1.2\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+              "protected": "EntityFramework, 6.1.2\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "EntityFramework, 6.1.2\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "protectedSnippet": "EntityFramework, 6.1.2\n\nRecommendation:\n\nShould be replaced.\nRemove EntityFramework, and replace with new package EntityFramework, 6.5.2",
+            "label": "EntityFramework 6.1.2",
+            "properties": {
+              "PackageId": "EntityFramework",
+              "PackageVersion": "6.1.2",
+              "PackageNewVersion": null,
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "fc0de218-69ca-4ba7-a9d4-c035ec4d2d4d",
+          "ruleId": "NuGet.0004",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "jQuery, 2.1.3\n\nRecommendation:\n\njQuery, 3.7.1",
+              "protected": "jQuery, 2.1.3\n\nRecommendation:\n\njQuery, 3.7.1"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "jQuery, 2.1.3\n\nRecommendation:\n\njQuery, 3.7.1",
+            "protectedSnippet": "jQuery, 2.1.3\n\nRecommendation:\n\njQuery, 3.7.1",
+            "label": "jQuery 2.1.3",
+            "properties": {
+              "PackageId": "jQuery",
+              "PackageVersion": "2.1.3",
+              "PackageNewVersion": "3.7.1",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c170c2ee-1166-49c6-989b-b8d301686426",
+          "ruleId": "NuGet.0004",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "jQuery.Validation, 1.13.1\n\nRecommendation:\n\njQuery.Validation, 1.21.0",
+              "protected": "jQuery.Validation, 1.13.1\n\nRecommendation:\n\njQuery.Validation, 1.21.0"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "jQuery.Validation, 1.13.1\n\nRecommendation:\n\njQuery.Validation, 1.21.0",
+            "protectedSnippet": "jQuery.Validation, 1.13.1\n\nRecommendation:\n\njQuery.Validation, 1.21.0",
+            "label": "jQuery.Validation 1.13.1",
+            "properties": {
+              "PackageId": "jQuery.Validation",
+              "PackageVersion": "1.13.1",
+              "PackageNewVersion": "1.21.0",
+              "PackageReplacements": null
+            }
+          }
+        },
+        {
+          "incidentId": "c2a9aee8-2874-4126-94c6-704eb8d0c5f1",
+          "ruleId": "Project.0001",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj"
+          }
+        },
+        {
+          "incidentId": "6690660f-3428-4442-9ade-e90cef78fb19",
+          "ruleId": "Project.0002",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0",
+              "protected": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\EStore.WebUI.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.5.1\nRecommended target framework: net10.0",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.5.1",
+              "RecommendedTargetFramework": "net10.0"
+            }
+          }
+        },
+        {
+          "incidentId": "c636de06-53cf-4e42-8c3d-d5494028ec57",
+          "ruleId": "Feature.1000",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "EStore.WebUI\\Global.asax.cs"
+          }
+        },
+        {
+          "incidentId": "5d136efa-13a6-44de-a2f3-4bd19b37ff19",
+          "ruleId": "Feature.0002",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "EStore.WebUI\\Global.asax.cs"
+          }
+        },
+        {
+          "incidentId": "e5e6455f-5916-4e18-9dff-47fc686a0e4e",
+          "ruleId": "Feature.0002",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "EStore.WebUI\\App_Start\\RouteConfig.cs"
+          }
+        },
+        {
+          "incidentId": "b63726ca-18ef-401e-8e7d-a3a87d5ef50f",
+          "ruleId": "Api.0001",
+          "description": "ASP.NET membership should be replaced with ASP.NET Core identity. For more details see https://docs.microsoft.com/aspnet/core/migration/proper-to-2x/membership-to-core-identity.\n\nAPI is unavailable in net8.0 ",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "FormsAuthentication.SetAuthCookie(username, false);",
+              "protected": "T:System.Web.Security.FormsAuthentication"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Infrastructure\\Concrete\\FormsAuthProvider.cs",
+            "snippet": "FormsAuthentication.SetAuthCookie(username, false);",
+            "protectedSnippet": "T:System.Web.Security.FormsAuthentication",
+            "label": "T:System.Web.Security.FormsAuthentication",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/aspnet/core/migration/proper-to-2x/membership-to-core-identity",
+                "isCustom": false
+              }
+            ],
+            "line": 16,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "8a718ba2-2ed7-48c6-bde6-3847005ab257",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "FormsAuthentication.SetAuthCookie(username, false);",
+              "protected": "M:System.Web.Security.FormsAuthentication.SetAuthCookie(System.String,System.Boolean)"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Infrastructure\\Concrete\\FormsAuthProvider.cs",
+            "snippet": "FormsAuthentication.SetAuthCookie(username, false);",
+            "protectedSnippet": "M:System.Web.Security.FormsAuthentication.SetAuthCookie(System.String,System.Boolean)",
+            "label": "M:System.Web.Security.FormsAuthentication.SetAuthCookie(System.String,System.Boolean)",
+            "line": 16,
+            "column": 16
+          }
+        },
+        {
+          "incidentId": "1104023a-a229-4794-b906-35b7e4fb8f19",
+          "ruleId": "Api.0001",
+          "description": "ASP.NET membership should be replaced with ASP.NET Core identity. For more details see https://docs.microsoft.com/aspnet/core/migration/proper-to-2x/membership-to-core-identity.\n\nAPI is unavailable in net8.0 ",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bool result = FormsAuthentication.Authenticate(username, password);",
+              "protected": "T:System.Web.Security.FormsAuthentication"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Infrastructure\\Concrete\\FormsAuthProvider.cs",
+            "snippet": "bool result = FormsAuthentication.Authenticate(username, password);",
+            "protectedSnippet": "T:System.Web.Security.FormsAuthentication",
+            "label": "T:System.Web.Security.FormsAuthentication",
+            "links": [
+              {
+                "title": "API documentation",
+                "url": "https://docs.microsoft.com/aspnet/core/migration/proper-to-2x/membership-to-core-identity",
+                "isCustom": false
+              }
+            ],
+            "line": 13,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "adc124f4-67f6-43a6-a7ae-f28bb5c67411",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "bool result = FormsAuthentication.Authenticate(username, password);",
+              "protected": "M:System.Web.Security.FormsAuthentication.Authenticate(System.String,System.String)"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Infrastructure\\Concrete\\FormsAuthProvider.cs",
+            "snippet": "bool result = FormsAuthentication.Authenticate(username, password);",
+            "protectedSnippet": "M:System.Web.Security.FormsAuthentication.Authenticate(System.String,System.String)",
+            "label": "M:System.Web.Security.FormsAuthentication.Authenticate(System.String,System.String)",
+            "line": 13,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "145be1e7-0b31-41c8-bb31-e1d6b0a006f0",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EmailSettings emailSettings = new EmailSettings\r\n            {\r\n                WriteAsFile = bool.Parse(ConfigurationManager.AppSettings[\u0022Email.WriteAsFile\u0022] ?? \u0022false\u0022)\r\n            };",
+              "protected": "T:System.Configuration.ConfigurationManager"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Infrastructure\\NinjectDependencyResolver.cs",
+            "snippet": "EmailSettings emailSettings = new EmailSettings\r\n            {\r\n                WriteAsFile = bool.Parse(ConfigurationManager.AppSettings[\u0022Email.WriteAsFile\u0022] ?? \u0022false\u0022)\r\n            };",
+            "protectedSnippet": "T:System.Configuration.ConfigurationManager",
+            "label": "T:System.Configuration.ConfigurationManager",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 58,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "9aecf458-6103-48be-b170-8160127f038d",
+          "ruleId": "Api.0002",
+          "description": "API is available in package System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3. Add package reference to System.Configuration.ConfigurationManager, 9.0.0-preview.6.24302.3",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "EmailSettings emailSettings = new EmailSettings\r\n            {\r\n                WriteAsFile = bool.Parse(ConfigurationManager.AppSettings[\u0022Email.WriteAsFile\u0022] ?? \u0022false\u0022)\r\n            };",
+              "protected": "P:System.Configuration.ConfigurationManager.AppSettings"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Infrastructure\\NinjectDependencyResolver.cs",
+            "snippet": "EmailSettings emailSettings = new EmailSettings\r\n            {\r\n                WriteAsFile = bool.Parse(ConfigurationManager.AppSettings[\u0022Email.WriteAsFile\u0022] ?? \u0022false\u0022)\r\n            };",
+            "protectedSnippet": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "label": "P:System.Configuration.ConfigurationManager.AppSettings",
+            "properties": {
+              "PackageId": "System.Configuration.ConfigurationManager",
+              "PackageNewVersion": "9.0.0-preview.6.24302.3"
+            },
+            "line": 58,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "bf0459f9-f9f8-455f-a122-c3304042c87f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+              "protected": "T:System.Web.Routing.RouteTable"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Global.asax.cs",
+            "snippet": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+            "protectedSnippet": "T:System.Web.Routing.RouteTable",
+            "label": "T:System.Web.Routing.RouteTable",
+            "line": 16,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "988510c4-1bfa-4316-9eb1-33a15fad50aa",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+              "protected": "T:System.Web.Routing.RouteCollection"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Global.asax.cs",
+            "snippet": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+            "protectedSnippet": "T:System.Web.Routing.RouteCollection",
+            "label": "T:System.Web.Routing.RouteCollection",
+            "line": 16,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "6a745f61-0ddd-4e0d-ac32-a37228139637",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+              "protected": "P:System.Web.Routing.RouteTable.Routes"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Global.asax.cs",
+            "snippet": "RouteConfig.RegisterRoutes(RouteTable.Routes);",
+            "protectedSnippet": "P:System.Web.Routing.RouteTable.Routes",
+            "label": "P:System.Web.Routing.RouteTable.Routes",
+            "line": 16,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "faacc7de-d422-4e88-9df7-66be934e6ff7",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HttpApplication",
+              "protected": "M:System.Web.HttpApplication.#ctor"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Global.asax.cs",
+            "snippet": "HttpApplication",
+            "protectedSnippet": "M:System.Web.HttpApplication.#ctor",
+            "label": "M:System.Web.HttpApplication.#ctor",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 11,
+            "column": 45
+          }
+        },
+        {
+          "incidentId": "14f872ff-fd4f-4377-a486-5a8ed6aed480",
+          "ruleId": "Api.0002",
+          "description": "API is available in package Microsoft.AspNetCore.SystemWebAdapters, 1.4.0. Add package reference to Microsoft.AspNetCore.SystemWebAdapters, 1.4.0",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "HttpApplication",
+              "protected": "T:System.Web.HttpApplication"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\Global.asax.cs",
+            "snippet": "HttpApplication",
+            "protectedSnippet": "T:System.Web.HttpApplication",
+            "label": "T:System.Web.HttpApplication",
+            "properties": {
+              "PackageId": "Microsoft.AspNetCore.SystemWebAdapters",
+              "PackageNewVersion": "1.4.0"
+            },
+            "line": 11,
+            "column": 45
+          }
+        },
+        {
+          "incidentId": "244d66c7-030f-42e4-81cf-0d2e4c8a2324",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static void RegisterRoutes(RouteCollection routes)",
+              "protected": "T:System.Web.Routing.RouteCollection"
+            },
+            "kind": "File",
+            "path": "EStore.WebUI\\App_Start\\RouteConfig.cs",
+            "snippet": "public static void RegisterRoutes(RouteCollection routes)",
+            "protectedSnippet": "T:System.Web.Routing.RouteCollection",
+            "label": "T:System.Web.Routing.RouteCollection",
+            "line": 11,
+            "column": 8
+          }
+        }
+      ],
+      "features": [
+        {
+          "featureId": "LegacyConfiguration",
+          "incidents": [
+            "9aecf458-6103-48be-b170-8160127f038d",
+            "145be1e7-0b31-41c8-bb31-e1d6b0a006f0"
+          ]
+        },
+        {
+          "featureId": "SystemWeb",
+          "incidents": [
+            "244d66c7-030f-42e4-81cf-0d2e4c8a2324",
+            "14f872ff-fd4f-4377-a486-5a8ed6aed480",
+            "faacc7de-d422-4e88-9df7-66be934e6ff7",
+            "6a745f61-0ddd-4e0d-ac32-a37228139637",
+            "988510c4-1bfa-4316-9eb1-33a15fad50aa",
+            "bf0459f9-f9f8-455f-a122-c3304042c87f",
+            "adc124f4-67f6-43a6-a7ae-f28bb5c67411",
+            "1104023a-a229-4794-b906-35b7e4fb8f19",
+            "8a718ba2-2ed7-48c6-bde6-3847005ab257",
+            "b63726ca-18ef-401e-8e7d-a3a87d5ef50f"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "NuGet.0002": {
+      "id": "NuGet.0002",
+      "isFeature": false,
+      "description": "NuGet package upgrade is recommended for selected target framework.\n\nStandard .NET packages are recommended to have versions matching version of .NET that project targets.\n\nSome other packages also are known to work better for selected target frameworks.",
+      "label": "NuGet package upgrade is recommended",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262530",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0001": {
+      "id": "NuGet.0001",
+      "isFeature": false,
+      "description": "NuGet package is incompatible with selected target framework.\n\nPackage needs to be upgraded to a version supporting selected project target framework. If there no new package versions supporting new target framework, different package needs to be used and all code needs to be upgraded to new API.",
+      "label": "NuGet package is incompatible",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262529",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0005": {
+      "id": "NuGet.0005",
+      "isFeature": false,
+      "description": "NuGet package is deprecated.\n\nGo to its documentation and if there is a guidance for replacement of functionality provided by this package.",
+      "label": "NuGet package is deprecated",
+      "severity": "Optional",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262531",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0001": {
+      "id": "Project.0001",
+      "isFeature": false,
+      "description": "Project file needs to be converted to SDK-style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK-style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Binding.0004": {
+      "id": "Binding.0004",
+      "isFeature": false,
+      "description": "AutoGenerateBindingRedirects is not set and no manual binding redirects were found. In some project types the default is false, leading to unpredictable behavior across different build environments or developer machines.",
+      "label": "AutoGenerateBindingRedirects not set and no manual redirects",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Assembly binding redirection",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262689",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0003": {
+      "id": "NuGet.0003",
+      "isFeature": false,
+      "description": "NuGet package functionality is included with framework reference.\n\nPackage needs to be removed.",
+      "label": "NuGet package functionality is included with framework reference",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262609",
+          "isCustom": false
+        }
+      ]
+    },
+    "NuGet.0004": {
+      "id": "NuGet.0004",
+      "isFeature": false,
+      "description": "NuGet package contains security vulnerabilities.\n\nPackage needs to be upgraded to a newer version that addresses known security vulnerabilities.",
+      "label": "NuGet package contains security vulnerability",
+      "severity": "Optional",
+      "effort": 1
+    },
+    "Feature.1000": {
+      "id": "Feature.1000",
+      "isFeature": true,
+      "description": "Convert application initialization code from Global.asax.cs to .NET Core and clean up Global.asax.cs.",
+      "label": "Convert application initialization code from Global.asax.cs to .NET Core and clean up Global.asax.cs",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        }
+      ]
+    },
+    "Feature.0002": {
+      "id": "Feature.0002",
+      "isFeature": true,
+      "description": "Routes registration via RouteCollection is not supported in .NET Core and needs to be converted to the route mappings on the application object.",
+      "label": "Routes registration via RouteCollection is not supported in .NET Core and needs to be converted to the route mappings on the application object",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0001": {
+      "id": "Api.0001",
+      "isFeature": false,
+      "description": "API is binary incompatible for selected .NET version: affects existing binaries, often requiring recompilation, because the API has changed in a way that prevents older binaries from loading or executing.",
+      "label": "Binary incompatible for selected .NET version",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0002": {
+      "id": "Api.0002",
+      "isFeature": false,
+      "description": "API is source incompatible for selected .NET version: requires code changes to compile successfully when targeting a new version, such as removing obsolete APIs or changing method signatures.",
+      "label": "Source incompatible for selected .NET version",
+      "severity": "Potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "LegacyConfiguration": {
+      "id": "LegacyConfiguration",
+      "isFeature": false,
+      "description": "Legacy XML-based configuration system (app.config/web.config) that has been replaced by a more flexible configuration model in .NET Core. The old system was rigid and XML-based. Migrate to Microsoft.Extensions.Configuration with JSON/environment variables; use System.Configuration.ConfigurationManager NuGet package as interim bridge if needed.",
+      "label": "Legacy Configuration System",
+      "severity": "Mandatory",
+      "effort": 2,
+      "links": [
+        {
+          "title": "Configuration in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341702",
+          "isCustom": false
+        }
+      ]
+    },
+    "SystemWeb": {
+      "id": "SystemWeb",
+      "isFeature": false,
+      "description": "Legacy ASP.NET Framework APIs for web applications (System.Web.*) that don\u0027t exist in ASP.NET Core due to architectural differences. ASP.NET Core represents a complete redesign of the web framework. Migrate to ASP.NET Core equivalents or consider System.Web.Adapters package for compatibility.",
+      "label": "ASP.NET Framework (System.Web)",
+      "severity": "Mandatory",
+      "effort": 4,
+      "links": [
+        {
+          "title": "Migrate from ASP.NET to ASP.NET Core",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341905",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}
