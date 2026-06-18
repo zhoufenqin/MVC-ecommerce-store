@@ -1,0 +1,206 @@
+{
+  "reportConfigHash": "25b39776",
+  "createdAtUtc": "2026-06-18T00:31:06.244264Z",
+  "entries": [
+    {
+      "packageName": "EntityFramework",
+      "packageVersion": "6.1.2",
+      "insightsName": "EntityFramework",
+      "insightsCurrentVersion": "6.1.2",
+      "insightsNewVersion": "6.5.2",
+      "insightsDescription": "NuGet package upgrade is recommended",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "EStore.Domain\\EStore.Domain.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Mvc",
+      "packageVersion": "5.2.3",
+      "insightsName": "Microsoft.AspNet.Mvc",
+      "insightsCurrentVersion": "5.2.3",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "EStore.Domain\\EStore.Domain.csproj",
+        "EStore.UnitTests\\EStore.UnitTests.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.Razor",
+      "packageVersion": "3.2.3",
+      "insightsName": "Microsoft.AspNet.Razor",
+      "insightsCurrentVersion": "3.2.3",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "EStore.Domain\\EStore.Domain.csproj",
+        "EStore.UnitTests\\EStore.UnitTests.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.AspNet.WebPages",
+      "packageVersion": "3.2.3",
+      "insightsName": "Microsoft.AspNet.WebPages",
+      "insightsCurrentVersion": "3.2.3",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "EStore.Domain\\EStore.Domain.csproj",
+        "EStore.UnitTests\\EStore.UnitTests.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.Web.Infrastructure",
+      "packageVersion": "1.0.0.0",
+      "insightsName": "Microsoft.Web.Infrastructure",
+      "insightsCurrentVersion": "1.0.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "EStore.Domain\\EStore.Domain.csproj",
+        "EStore.UnitTests\\EStore.UnitTests.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Moq",
+      "packageVersion": "4.2.1502.0911",
+      "insightsName": "Moq",
+      "insightsCurrentVersion": "4.2.1502.0911",
+      "insightsNewVersion": "4.20.72",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "EStore.UnitTests\\EStore.UnitTests.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Ninject",
+      "packageVersion": "3.2.2.0",
+      "insightsName": "Ninject",
+      "insightsCurrentVersion": "3.2.2.0",
+      "insightsNewVersion": "3.3.6",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "EStore.UnitTests\\EStore.UnitTests.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Ninject.MVC3",
+      "packageVersion": "3.2.1.0",
+      "insightsName": "Ninject.MVC3",
+      "insightsCurrentVersion": "3.2.1.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "EStore.UnitTests\\EStore.UnitTests.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Ninject.Web.Common",
+      "packageVersion": "3.2.3.0",
+      "insightsName": "Ninject.Web.Common",
+      "insightsCurrentVersion": "3.2.3.0",
+      "insightsNewVersion": "3.3.2",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "EStore.UnitTests\\EStore.UnitTests.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Ninject.Web.Common.WebHost",
+      "packageVersion": "3.2.3.0",
+      "insightsName": "Ninject.Web.Common.WebHost",
+      "insightsCurrentVersion": "3.2.3.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "WebActivatorEx",
+      "packageVersion": "2.0.6",
+      "insightsName": "WebActivatorEx",
+      "insightsCurrentVersion": "2.0.6",
+      "insightsNewVersion": "",
+      "insightsDescription": "NuGet package is incompatible",
+      "insightsIsCompatible": false,
+      "insightsProjects": [
+        "EStore.UnitTests\\EStore.UnitTests.csproj",
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "bootstrap",
+      "packageVersion": "3.3.2",
+      "insightsName": "bootstrap",
+      "insightsCurrentVersion": "3.3.2",
+      "insightsNewVersion": "5.3.8",
+      "insightsDescription": "NuGet package contains security vulnerability",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "jQuery",
+      "packageVersion": "2.1.3",
+      "insightsName": "jQuery",
+      "insightsCurrentVersion": "2.1.3",
+      "insightsNewVersion": "3.7.1",
+      "insightsDescription": "NuGet package contains security vulnerability",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "jQuery.Migrate",
+      "packageVersion": "1.2.1",
+      "insightsName": "jQuery.Migrate",
+      "insightsCurrentVersion": "1.2.1",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    },
+    {
+      "packageName": "jQuery.Validation",
+      "packageVersion": "1.13.1",
+      "insightsName": "jQuery.Validation",
+      "insightsCurrentVersion": "1.13.1",
+      "insightsNewVersion": "1.21.0",
+      "insightsDescription": "NuGet package contains security vulnerability",
+      "insightsIsCompatible": true,
+      "insightsProjects": [
+        "EStore.WebUI\\EStore.WebUI.csproj"
+      ]
+    },
+    {
+      "packageName": "Microsoft.jQuery.Unobtrusive.Validation",
+      "packageVersion": "3.0.0",
+      "insightsName": "Microsoft.jQuery.Unobtrusive.Validation",
+      "insightsCurrentVersion": "3.0.0",
+      "insightsNewVersion": "",
+      "insightsDescription": "",
+      "insightsIsCompatible": true,
+      "insightsProjects": []
+    }
+  ]
+}
