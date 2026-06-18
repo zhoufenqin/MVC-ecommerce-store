@@ -1,0 +1,1779 @@
+{
+  "packageGovernance": {
+    "totalDistinctPackages": 16,
+    "totalVersionDriftInstances": 0,
+    "targetFramework": "net10.0",
+    "packages": [
+      {
+        "name": "bootstrap",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "5.3.8",
+        "isCompatible": true,
+        "description": "NuGet package contains security vulnerability",
+        "versions": [
+          {
+            "version": "3.3.2",
+            "projects": [
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "5.3.8"
+        }
+      },
+      {
+        "name": "EntityFramework",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "6.5.2",
+        "isCompatible": true,
+        "description": "NuGet package upgrade is recommended",
+        "versions": [
+          {
+            "version": "6.1.2",
+            "projects": [
+              "EStore.Domain",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "6.5.2"
+        }
+      },
+      {
+        "name": "jQuery",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "3.7.1",
+        "isCompatible": true,
+        "description": "NuGet package contains security vulnerability",
+        "versions": [
+          {
+            "version": "2.1.3",
+            "projects": [
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "3.7.1"
+        }
+      },
+      {
+        "name": "jQuery.Migrate",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "1.2.1",
+            "projects": [
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "jQuery.Validation",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "1.21.0",
+        "isCompatible": true,
+        "description": "NuGet package contains security vulnerability",
+        "versions": [
+          {
+            "version": "1.13.1",
+            "projects": [
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "1.21.0"
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Mvc",
+        "totalProjectCount": 3,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "5.2.3",
+            "projects": [
+              "EStore.Domain",
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.Razor",
+        "totalProjectCount": 3,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.2.3",
+            "projects": [
+              "EStore.Domain",
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.AspNet.WebPages",
+        "totalProjectCount": 3,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.2.3",
+            "projects": [
+              "EStore.Domain",
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.jQuery.Unobtrusive.Validation",
+        "totalProjectCount": 1,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.0.0",
+            "projects": [
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Microsoft.Web.Infrastructure",
+        "totalProjectCount": 3,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "1.0.0.0",
+            "projects": [
+              "EStore.Domain",
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Moq",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "4.20.72",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "4.2.1502.0911",
+            "projects": [
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "4.20.72"
+        }
+      },
+      {
+        "name": "Ninject",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "3.3.6",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.2.2.0",
+            "projects": [
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "3.3.6"
+        }
+      },
+      {
+        "name": "Ninject.MVC3",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.2.1.0",
+            "projects": [
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "Ninject.Web.Common",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "3.3.2",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "3.2.3.0",
+            "projects": [
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": "3.3.2"
+        }
+      },
+      {
+        "name": "Ninject.Web.Common.WebHost",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": true,
+        "description": "",
+        "versions": [
+          {
+            "version": "3.2.3.0",
+            "projects": [
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      },
+      {
+        "name": "WebActivatorEx",
+        "totalProjectCount": 2,
+        "distinctVersionCount": 1,
+        "recommendedVersion": "",
+        "isCompatible": false,
+        "description": "NuGet package is incompatible",
+        "versions": [
+          {
+            "version": "2.0.6",
+            "projects": [
+              "EStore.UnitTests",
+              "EStore.WebUI"
+            ],
+            "isRecommended": false
+          }
+        ],
+        "upgrade": {
+          "newVersion": ""
+        }
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "EStore.Domain",
+      "path": "EStore.Domain\\EStore.Domain.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net451"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "EntityFramework",
+            "version": "6.1.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\packages.config"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "6.5.2",
+            "upgrade": {
+              "newVersion": "6.5.2"
+            }
+          },
+          {
+            "name": "Microsoft.AspNet.Mvc",
+            "version": "5.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Razor",
+            "version": "3.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.WebPages",
+            "version": "3.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "1.0.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "EntityFramework",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "physicalPath": "packages\\EntityFramework.6.1.2\\lib\\net45\\EntityFramework.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "EntityFramework.SqlServer",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "physicalPath": "packages\\EntityFramework.6.1.2\\lib\\net45\\EntityFramework.SqlServer.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Web.Infrastructure.1.0.0.0\\lib\\net40\\Microsoft.Web.Infrastructure.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ComponentModel.DataAnnotations",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Helpers",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.Helpers.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Mvc",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Mvc.5.2.3\\lib\\net45\\System.Web.Mvc.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Razor",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Razor.3.2.3\\lib\\net45\\System.Web.Razor.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages.Deployment",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Deployment.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages.Razor",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Razor.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.Domain\\EStore.Domain.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "EStore.UnitTests",
+      "path": "EStore.UnitTests\\EStore.UnitTests.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net451"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "Microsoft.AspNet.Mvc",
+            "version": "5.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Razor",
+            "version": "3.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.WebPages",
+            "version": "3.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "1.0.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Moq",
+            "version": "4.2.1502.0911",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "4.20.72",
+            "upgrade": {
+              "newVersion": "4.20.72"
+            }
+          },
+          {
+            "name": "Ninject",
+            "version": "3.2.2.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.6",
+            "upgrade": {
+              "newVersion": "3.3.6"
+            }
+          },
+          {
+            "name": "Ninject.MVC3",
+            "version": "3.2.1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Ninject.Web.Common",
+            "version": "3.2.3.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          },
+          {
+            "name": "Ninject.Web.Common.WebHost",
+            "version": "3.2.3.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "WebActivatorEx",
+            "version": "2.0.6",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.VisualStudio.QualityTools.UnitTestFramework",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Web.Infrastructure.1.0.0.0\\lib\\net40\\Microsoft.Web.Infrastructure.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Moq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Moq.4.2.1502.0911\\lib\\net40\\Moq.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Ninject",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Ninject.3.2.2.0\\lib\\net45-full\\Ninject.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Ninject.Web.Common",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Ninject.Web.Common.3.2.3.0\\lib\\net45-full\\Ninject.Web.Common.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Ninject.Web.Mvc",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Ninject.MVC3.3.2.1.0\\lib\\net45-full\\Ninject.Web.Mvc.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ComponentModel.DataAnnotations",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.ApplicationServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Extensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Abstractions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Helpers",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.Helpers.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Mvc",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Mvc.5.2.3\\lib\\net45\\System.Web.Mvc.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Razor",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Razor.3.2.3\\lib\\net45\\System.Web.Razor.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Routing",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages.Deployment",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Deployment.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages.Razor",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Razor.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "WebActivatorEx",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "physicalPath": "packages\\WebActivatorEx.2.0.6\\lib\\net40\\WebActivatorEx.dll",
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "EStore.Domain",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "EStore.Domain\\EStore.Domain.csproj",
+            "compatibility": "valid"
+          },
+          {
+            "name": "EStore.WebUI",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.UnitTests\\EStore.UnitTests.csproj"
+              }
+            ],
+            "referencedProjectPath": "EStore.WebUI\\EStore.WebUI.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    },
+    {
+      "name": "EStore.WebUI",
+      "path": "EStore.WebUI\\EStore.WebUI.csproj",
+      "isSdk": false,
+      "currentFrameworks": [
+        "net451"
+      ],
+      "targetFramework": "net10.0",
+      "dependencies": {
+        "packages": [
+          {
+            "name": "bootstrap",
+            "version": "3.3.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package contains security vulnerability",
+            "compatibility": "valid",
+            "recommendedVersion": "5.3.8",
+            "upgrade": {
+              "newVersion": "5.3.8"
+            }
+          },
+          {
+            "name": "EntityFramework",
+            "version": "6.1.2",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package upgrade is recommended",
+            "compatibility": "valid",
+            "recommendedVersion": "6.5.2",
+            "upgrade": {
+              "newVersion": "6.5.2"
+            }
+          },
+          {
+            "name": "jQuery",
+            "version": "2.1.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package contains security vulnerability",
+            "compatibility": "valid",
+            "recommendedVersion": "3.7.1",
+            "upgrade": {
+              "newVersion": "3.7.1"
+            }
+          },
+          {
+            "name": "jQuery.Migrate",
+            "version": "1.2.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "jQuery.Validation",
+            "version": "1.13.1",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package contains security vulnerability",
+            "compatibility": "valid",
+            "recommendedVersion": "1.21.0",
+            "upgrade": {
+              "newVersion": "1.21.0"
+            }
+          },
+          {
+            "name": "Microsoft.AspNet.Mvc",
+            "version": "5.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.Razor",
+            "version": "3.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.AspNet.WebPages",
+            "version": "3.2.3",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.jQuery.Unobtrusive.Validation",
+            "version": "3.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "1.0.0.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Moq",
+            "version": "4.2.1502.0911",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "4.20.72",
+            "upgrade": {
+              "newVersion": "4.20.72"
+            }
+          },
+          {
+            "name": "Ninject",
+            "version": "3.2.2.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.6",
+            "upgrade": {
+              "newVersion": "3.3.6"
+            }
+          },
+          {
+            "name": "Ninject.MVC3",
+            "version": "3.2.1.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "Ninject.Web.Common",
+            "version": "3.2.3.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": "3.3.2",
+            "upgrade": {
+              "newVersion": "3.3.2"
+            }
+          },
+          {
+            "name": "Ninject.Web.Common.WebHost",
+            "version": "3.2.3.0",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "",
+            "compatibility": "valid",
+            "recommendedVersion": ""
+          },
+          {
+            "name": "WebActivatorEx",
+            "version": "2.0.6",
+            "isTransitive": false,
+            "isGlobal": false,
+            "isImplicit": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\packages.config"
+              }
+            ],
+            "description": "NuGet package is incompatible",
+            "compatibility": "newVersionNeeded",
+            "recommendedVersion": ""
+          }
+        ],
+        "assemblies": [
+          {
+            "name": "EntityFramework",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\EntityFramework.6.1.2\\lib\\net45\\EntityFramework.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "EntityFramework.SqlServer",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\EntityFramework.6.1.2\\lib\\net45\\EntityFramework.SqlServer.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.CSharp",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "Microsoft.Web.Infrastructure",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.Web.Infrastructure.1.0.0.0\\lib\\net40\\Microsoft.Web.Infrastructure.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Moq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Moq.4.2.1502.0911\\lib\\net40\\Moq.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Ninject",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Ninject.3.2.2.0\\lib\\net45-full\\Ninject.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Ninject.Web.Common",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Ninject.Web.Common.3.2.3.0\\lib\\net45-full\\Ninject.Web.Common.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "Ninject.Web.Mvc",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Ninject.MVC3.3.2.1.0\\lib\\net45-full\\Ninject.Web.Mvc.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.DynamicData",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Entity",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.ApplicationServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.ComponentModel.DataAnnotations",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Core",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Data.DataSetExtensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Extensions",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Helpers",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.Helpers.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Mvc",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Mvc.5.2.3\\lib\\net45\\System.Web.Mvc.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Razor",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.Razor.3.2.3\\lib\\net45\\System.Web.Razor.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages.Deployment",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Deployment.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.WebPages.Razor",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\Microsoft.AspNet.WebPages.3.2.3\\lib\\net45\\System.Web.WebPages.Razor.dll",
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml.Linq",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Drawing",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Xml",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Configuration",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.Web.Services",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "System.EnterpriseServices",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "compatibility": "valid"
+          },
+          {
+            "name": "WebActivatorEx",
+            "version": "",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "physicalPath": "packages\\WebActivatorEx.2.0.6\\lib\\net40\\WebActivatorEx.dll",
+            "compatibility": "valid"
+          }
+        ],
+        "projectReferences": [
+          {
+            "name": "EStore.Domain",
+            "isTransitive": false,
+            "definedIn": [
+              {
+                "path": "EStore.WebUI\\EStore.WebUI.csproj"
+              }
+            ],
+            "referencedProjectPath": "EStore.Domain\\EStore.Domain.csproj",
+            "compatibility": "valid"
+          }
+        ],
+        "frameworkReferences": []
+      }
+    }
+  ]
+}
